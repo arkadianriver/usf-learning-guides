@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -x
+set -ex
 
 mkdir -p ./output
 
@@ -51,3 +51,5 @@ fi
 
 # Open the index when building locally
 [[ $OSTYPE =~ ^darwin ]] && open ./output/index.html
+
+echo "Done."
