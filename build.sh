@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir ./output
+mkdir -p ./output
 
 #
 # For dev branch and local builds we want an index page available
@@ -23,7 +23,7 @@ if [[ "$GITHUB_REF_NAME" == dev || "$OSTYPE" =~ ^darwin ]]; then
 EOF
 fi
 
-mkdir ./tmp
+mkdir -p ./tmp
 for fname in ./content/*; do
   basename=$(basename -s .md $fname)
   [[ $GITHUB_REF_NAME == main && $basename == test ]] && continue # skip test.pdf in production
