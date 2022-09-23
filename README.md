@@ -11,26 +11,24 @@ with that organization in any way.</p>
 
 ## Contents:
 
--  [Synopsis](#synopsis)
-   -  [Building online](#building-online)
-   -  [Building locally](#building-locally)
--  [Installing the software locally](#installing-the-software-locally)
--  [Editing the markdown source](#editing-the-markdown-source)
+-  [Editing content online](#editing-content-online)
+-  [About markdown](#about-markdown)
+-  [Optional: Installing locally](#optional-installing-locally)
+-  [Optional: Authoring locally](#optional-authoring-locally)
 
-## Synopsis
-
-### Building online
+## Editing content online
 
 1.  In Github, create and edit a markdown file in the
     `content` directory.
 
-1.  Click **Save**, which creates the file in a branch in your
-    forked repository.
+1.  At the bottom of the form, enter a comment, select create a new branch,
+    and click **Propose changes**.
+    The file is created in a branch in your forked repository.
 
-1.  Create a Pull Request ()PR, pulling your forked branch into the
+1.  Create a Pull Request (PR), pulling your forked branch into the
     `dev` branch of the `arkadianriver/usf-learning-guides` repository.
 
-1.  Your colleagues can review the markdown source, comment, and
+1.  Once submitted, your colleagues can review the PR, comment, and
     discuss before an authorized person merges your PR into the
     `dev` branch.
 
@@ -44,72 +42,7 @@ with that organization in any way.</p>
     [this workflow action](https://github.com/marketplace/actions/publish-to-sharepoint).)
 
 
-### Building locally
-
-1.  Edit a markdown file in the `content` directory:
-
-    ```markdown
-    ---
-    title: How to Lorem ipsum
-    subtitle: A study of Amet ex irure
-    date: 09/11/2022
-    ---
-
-    Lorem ipsum ...
-
-    ::: {.sidebar-right}
-    This is a sidebar comment. yada, yada, yada.
-    :::
-
-    Lorem ipsum ...
-    ```
-
-1.  Build the markdown files into PDFs:
-
-    ```bash
-    ./build.sh
-    ```
-
-1.  View your PDF files in the output folder.
-
-
-## Installing the software locally
-
-**Mac:**
-
-1.  Homebrew (to easily install Pandoc):
-
-    ```bash
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    ```
-
-1.  Pandoc (to create the HTML file, using the template):
-
-    ```bash
-    brew install pandoc
-    ```
-
-1.  Node version manager (to easily switch Node versions):
-
-    ```bash
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-    ```
-
-    After that, restart the Terminal.
-
-1.  Node JS (prerequisite to PagedJS; version 16 is a good stable one):
-
-    ```bash
-    nvm install 16
-    ```
-
-1.  Paged JS (to render the HTML as a PDF):
-
-    ```bash
-    npm install -g pagedjs-cli pagedjs
-    ```
-
-## Editing the markdown source
+## About markdown
 
 The source files are written in Pandoc markdown, which is
 [standard markdown](https://daringfireball.net/projects/markdown/syntax)
@@ -159,4 +92,70 @@ Steps can also include a prefix icon. The available icons are:
 See the `content/test.md` file for example source,
 and the `output/test.pdf` file for its output.
 (Note that when publishing, the `test.pdf` is not published.)
+
+
+## Optional: Installing locally
+
+**Mac:**
+
+1.  Homebrew (to easily install Pandoc):
+
+    ```bash
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+
+1.  Pandoc (to create the HTML file, using the template):
+
+    ```bash
+    brew install pandoc
+    ```
+
+1.  Node version manager (to easily switch Node versions):
+
+    ```bash
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+    ```
+
+    After that, restart the Terminal.
+
+1.  Node JS (prerequisite to PagedJS; version 16 is a good stable one):
+
+    ```bash
+    nvm install 16
+    ```
+
+1.  Paged JS (to render the HTML as a PDF):
+
+    ```bash
+    npm install -g pagedjs-cli pagedjs
+    ```
+
+## Optional: Authoring locally
+
+1.  Edit a markdown file in the `content` directory:
+
+    ```markdown
+    ---
+    title: How to Lorem ipsum
+    subtitle: A study of Amet ex irure
+    date: 09/11/2022
+    ---
+
+    Lorem ipsum ...
+
+    ::: {.sidebar-right}
+    This is a sidebar comment. yada, yada, yada.
+    :::
+
+    Lorem ipsum ...
+    ```
+
+1.  Build the markdown files into PDFs:
+
+    ```bash
+    ./build.sh
+    ```
+
+1.  View your PDF files in the output folder.
+
 
