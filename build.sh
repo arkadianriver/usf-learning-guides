@@ -27,8 +27,10 @@ mkdir ./tmp
 for fname in ./content/*; do
   basename=$(basename -s .md $fname)
   [[ $GITHUB_REF_NAME == main && $basename == test ]] && continue # skip test.pdf in production
-  echo "Processing $fname ..."
+  echo "Transforming ${basename}.md to HTML ..."
+  which pandoc
   pandoc -s $fname --template=./resources/template.html -o ./tmp/${basename}.html
+  echo "Transforming ${basename}.html to PDF ..."
   pagedjs-cli ./tmp/${basename}.html -o ./output/${basename}.pdf
   if [[ "$GITHUB_REF_NAME" == dev || "$OSTYPE" =~ ^darwin ]]; then
     echo "        <li><a href='${basename}.pdf' target='_blank'>${basename}.pdf</a></li>" >>./output/index.html
