@@ -30,7 +30,7 @@ mkdir -p ./tmp
 for fname in ./content/*; do
   basename=$(basename -s .md $fname)
   # skip test.pdf in production
-  if [[ $GITHUB_REF_NAME == main && $basename == test ]]; then continue; fi
+  if [[ $GITHUB_REF_NAME == main && "$basename" =~ ^test ]]; then continue; fi
   echo "Transforming ${basename}.md to HTML ..."
   pandoc -s $fname --template=./resources/template.html -o ./tmp/${basename}.html
   echo "Transforming ${basename}.html to PDF ..."
