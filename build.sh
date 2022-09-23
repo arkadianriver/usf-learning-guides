@@ -3,6 +3,7 @@
 set -ex
 
 mkdir -p ./output
+touch ./output/.nojekyll
 
 #
 # For dev branch and local builds we want an index page available
