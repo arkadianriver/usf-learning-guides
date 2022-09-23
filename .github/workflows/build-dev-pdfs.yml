@@ -26,6 +26,7 @@ jobs:
 
       - name: Build PDFs 🔧
         run: ./build.sh
+        shell: bash
         
       - name: Deploy to Pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4
