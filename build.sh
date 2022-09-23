@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p output
+mkdir ./output
 
 #
 # For dev branch and local builds we want an index page available

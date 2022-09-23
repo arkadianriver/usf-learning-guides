@@ -5,7 +5,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Cabin+Condensed:wght@700&display=swap" rel="stylesheet">
-  <title>${title}</title>
+  <title>$title$</title>
   <style>
     html {
       font-family: "Open Sans", sans-serif;
@@ -178,7 +178,7 @@ ol ol ol ol ol ol>li::before {content:counter(item,lower-roman) ". "}
 <body>
   <section id="main">
     <header>
-      <h1>${title}</h1>
+      <h1>$title$</h1>
       $if(subtitle)$
       <p class="subtitle">$subtitle$</p>
       $endif$
@@ -192,7 +192,7 @@ ol ol ol ol ol ol>li::before {content:counter(item,lower-roman) ". "}
       </p>
     </header>
     <article>
-    ${body}
+    $body$
     </article>
   </section>
 </body>
