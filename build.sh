@@ -28,7 +28,8 @@ fi
 mkdir -p ./tmp
 for fname in ./content/*; do
   basename=$(basename -s .md $fname)
-  [[ $GITHUB_REF_NAME == main && $basename == test ]] && continue # skip test.pdf in production
+  # skip test.pdf in production
+  if [[ $GITHUB_REF_NAME == main && $basename == test ]]; then continue; fi
   echo "Transforming ${basename}.md to HTML ..."
   pandoc -s $fname --template=./resources/template.html -o ./tmp/${basename}.html
   echo "Transforming ${basename}.html to PDF ..."
@@ -50,6 +51,8 @@ EOF
 fi
 
 # Open the index when building locally
-[[ $OSTYPE =~ ^darwin ]] && open ./output/index.html
+if [[ $OSTYPE =~ ^darwin ]]; then
+  open ./output/index.html
+fi
 
 echo "Done."
