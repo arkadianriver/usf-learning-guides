@@ -4,7 +4,7 @@ subtitle: Subtitle - Initial caps here
 date: 09/11/2022
 ---
 
-Enim voluptate ipsum adipisicing sit in irure cupidatat enim ut enim. Dolor Lorem adipisicing et ut voluptate laborum eiusmod. Amet labore commodo magna occaecat. Aliquip veniam enim fugiat officia labore culpa sint Lorem pariatur consectetur.
+Enim voluptate ipsum adipisicing sit in irure cupidatat enim ut enim. Dolor Lorem ipsum adipisicing et ut voluptate laborum eiusmod. Amet labore commodo magna occaecat. Aliquip veniam enim fugiat officia labore culpa sint Lorem pariatur consectetur.
 
 |Variable|Value|Actual|
 |:---|:---:|----:|
