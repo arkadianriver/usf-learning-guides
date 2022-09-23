@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Cabin+Condensed:wght@700&display=swap" rel="stylesheet">
+  <title>${title}</title>
+  <style>
+    html {
+      font-family: "Open Sans", sans-serif;
+      font-size: 1.0em;
+      line-height: 1.2;
+    }
+    h1 {
+      font-family: "Cabin Condensed", sans-serif;
+      font-weight: 700;
+      color: brown;
+      font-size: 2.0rem;
+      line-height: 2.4rem;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+    .subtitle {
+      font-family: "Cabin Condensed", sans-serif;
+      margin-top: 0.5rem;
+      color: goldenrod;
+      font-size: 1.4rem;
+      text-transform: capitalize;
+      font-variant: small-caps;
+    }
+    h2 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+    }
+    h3 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      font-size: 1.4rem;
+    }
+    article {
+      margin-top: 2.0rem;
+    }
+    .tip {
+      background-image: url("../resources/quick-tip.svg");
+      font-weight: 400;
+      font-style: italic;
+      background-repeat: no-repeat;
+      padding-left: 22mm;
+    }
+    .sidebar-right {
+      float: right;
+      margin: 0.5rem;
+      padding: 0 1.0rem 0 1.0rem;
+      width: 40%;
+      border: 2px solid brown;
+      border-radius: 9px;
+      background-color: #efefef;
+    }
+    .sidebar-left {
+      float: left;
+      margin: 0.5rem;
+      padding: 0 1.0rem 0 1.0rem;
+      width: 40%;
+      border: 2px solid brown;
+      border-radius: 9px;
+      background-color: #efefef;
+    }
+    .footer {
+      position: running(footerRunning);
+    }
+    .step {
+      margin: 2.6rem 0 2.6rem 0;
+      counter-increment:step;
+      padding-left: 40px;
+      padding-top: -40px;
+    }
+    .think {
+      padding-left: 80px;
+    }
+    .first-step {
+      counter-reset: step;
+    }
+    .step::before {
+      margin-left:-40px;
+      margin-top: -40px;
+      vertical-align: top;
+      width:fit-content;
+      content:counter(step, decimal-leading-zero);
+      background-color: gray;
+      color: white;
+      font-weight: 700;
+      padding:6px;
+    }
+    .think::before {
+      margin-left: -80px;
+      content:url("../resources/thinking-svgrepo-com.svg") " | " counter(step, decimal-leading-zero);
+      background-color: #9CCB3B;
+    }
+    .step :first-of-type {
+      margin-top: -26px;
+    }
+    .think :first-of-type {
+      margin-top: -32px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 6px;
+    }
+    th {
+      color: white;
+      font-weight: 700;
+      background-color: #466069;
+    }
+    tbody tr:nth-child(even) td {
+      background-color: #cad2d8;
+    }
+    tbody td {
+      border: 1px solid black;
+    }
+ol {counter-reset:item;list-style:none}
+ol>li {counter-increment:item;margin: 6px 0 6px 0;}
+ol>li::before {content:counter(item,decimal) ". ";font-weight: 700}
+ol ol>li::before {content:counter(item,lower-alpha) ". "}
+ol ol ol>li::before {content:counter(item,lower-roman) ". "}
+ol ol ol ol>li::before {content:counter(item,decimal) ". "}
+ol ol ol ol ol>li::before {content:counter(item,lower-alpha) ". "}
+ol ol ol ol ol ol>li::before {content:counter(item,lower-roman) ". "}
+    @media print {
+      .page-break {
+        break-before: page;
+      }
+      @page {
+        size: letter portrait;
+        margin: 24mm 12mm 40mm 12mm;
+        padding: 2.0em;
+
+        @top-left-corner {
+          $if(student-guide)$
+          content: url("../resources/usf-header-student.svg");
+          $else$
+          content: url("../resources/usf-header-instructor.svg");
+          $endif$
+        }
+        @left-middle {
+          content: url("../resources/usf-colors.svg");
+          transform: rotate(90deg);
+          transform-origin: center;
+          margin-left: -14px;
+        }
+        @bottom-right-corner {
+          content: url("../resources/slashes.svg") "   " counter(page);
+          margin-right: 6px;
+          margin-bottom: 6px;
+          font-size: 0.8rem;
+          vertical-align: bottom;
+        }
+        @bottom-center {
+          content: element(footerRunning);
+          font-size: 0.8rem;
+        }
+        @bottom-left-corner {
+          margin-left: 6px;
+          margin-bottom: 6px;
+          vertical-align: bottom;
+          content: "$date$";
+          font-size: 0.8rem;
+          color: #6a6a6a;
+        }
+      }
+    }
+  </style>
+</head>
+<body>
+  <section id="main">
+    <header>
+      <h1>${title}</h1>
+      $if(subtitle)$
+      <p class="subtitle">$subtitle$</p>
+      $endif$
+      <p class="footer">
+        Was this resource helpful?
+        <a href="https://usf.az1.qualtrics.com/jfe/form/SV_3E0V4NIDyqKZIvI">Tell us how we did.</a><br />
+        Developed by Digital Learning, USF Innovative Educations • Visit us on
+        <a href="https://www.linkedin.com/school/digital-learning-usf/mycompany/">LinkedIn</a><br />
+        Additional faculty resources at
+        <a href="https://www.usf.edu/innovative-education/digital-learning/digital-learning-resources/index.aspx">USF Digital Learning</a> • Email <a href="mailto:facultysupport@usf.edu">facultysupport@usf.edu</a> for questions &amp; training.
+      </p>
+    </header>
+    <article>
+    ${body}
+    </article>
+  </section>
+</body>
+</html>

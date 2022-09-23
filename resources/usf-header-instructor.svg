@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<!--
+   width="210.02957mm"
+   height="22.573296mm"
+-->
+
+<svg
+   width="8.5055199in"
+   height="0.89999998in"
+   viewBox="0 0 216.04022 22.859999"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   sodipodi:docname="usf-header-instructor.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.79464085"
+     inkscape:cx="277.48385"
+     inkscape:cy="552.45083"
+     inkscape:window-width="1390"
+     inkscape:window-height="1042"
+     inkscape:window-x="232"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1329"
+       originx="-0.00020835856"
+       originy="0.096464929" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern1089"
+       id="pattern5366"
+       patternTransform="matrix(1.0293041,0,0,0.80764321,-0.63906136,70.354802)" />
+    <rect
+       x="145.97791"
+       y="13.842732"
+       width="265.52875"
+       height="23.910172"
+       id="rect811" />
+    <rect
+       x="145.97791"
+       y="13.842732"
+       width="265.52875"
+       height="23.910172"
+       id="rect811-1" />
+    <rect
+       x="145.97791"
+       y="13.842732"
+       width="476.06747"
+       height="26.149946"
+       id="rect811-1-7" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="793.81098"
+       height="107.96656"
+       patternTransform="translate(-0.4999995,117.79243)"
+       id="pattern1089">
+      <rect
+         style="fill:#16502d;stroke:#16502d;stroke-width:0.999999"
+         id="rect983"
+         width="792.81097"
+         height="106.96656"
+         x="0.49999934"
+         y="0.49999934" />
+    </pattern>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.13229153,-0.37757121)">
+    <rect
+       style="fill:#2ca05a;fill-opacity:1;stroke:url(#pattern5366);stroke-width:0.241616;stroke-dasharray:none"
+       id="rect1094"
+       width="215.9115"
+       height="22.857569"
+       x="-0.12440985"
+       y="0.49837908" />
+    <g
+       id="g476"
+       transform="translate(5.8208336,0.52916667)">
+      <rect
+         style="fill:#445500;stroke-width:0.264583"
+         id="rect271"
+         width="76.913673"
+         height="9.6558294"
+         x="132.85089"
+         y="5.9932737" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;stroke-width:0.264583"
+       x="152.82848"
+       y="27.968609"
+       id="text480"><tspan
+         sodipodi:role="line"
+         id="tspan478"
+         x="152.82848"
+         y="27.968609"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;stroke-width:0.264583"
+       x="151.89484"
+       y="13.163785"
+       id="text484"><tspan
+         sodipodi:role="line"
+         id="tspan482"
+         x="151.89484"
+         y="13.163785"
+         style="font-size:4.93889px;stroke-width:0.264583">INSTRUCTOR GUIDE</tspan></text>
+    <g
+       transform="matrix(0.04034066,0,0,0.04034066,16.064516,4.7289922)"
+       id="g660">
+      <path
+         d="m 150.297,191.692 c 1.627,-1.075 13.64,-8.844 13.794,-9.124 l 48.873,-81.045 c 18.199,0.473 67.49,-0.12 81.912,-8.557 -2.396,-4.928 -5.37,-9.545 -7.128,-14.768 -12.68,-37.491 28.019,-59.482 53.458,-77.027 l -9.45,36.799 c -1.248,4.839 -0.713,9.189 2.175,13.297 11.73,16.716 36.646,20.353 33.063,51.153 -5.936,51.052 -63.049,65.159 -106.176,67.513 -11.514,19.103 -18.052,34.16 -39.397,44.415 l -16.837,29.414 c 0.651,5.404 0.909,9.546 -1.819,14.529 -5.504,10.049 -41.309,28.792 -52.712,35.505 L 45.307,292.736 C 37.587,280.677 13.931,248.918 25.133,235.268 27.001,232.996 35.228,226.673 35.652,226 L 54.337,196.421 C 47.813,182.302 47.223,178.392 56.051,165.282 13.2,158.663 -15.009,136.573 8.499,91.562 26.686,56.76 74.127,56.696 85.937,26.791 l 10.538,-26.803 14.749,24.756 c 18.58,31.355 -3.583,49.362 -25.34,68.873 23.545,6.618 70.962,5.776 96.892,5.355 l -59.459,89.098 c 1.443,3.293 2.826,6.614 4.085,9.981 -5.548,10.017 -11.134,20.019 -16.854,29.937 l 18.655,0.421 c 6.875,-12.32 13.512,-24.784 20.179,-37.212 l 0.9,0.48"
+         fill="#cfc493"
+         id="path654" />
+      <path
+         d="m 60.874,191.842 c -1.358,-2.989 -2.925,-6.574 -3.189,-7.907 -0.442,-2.258 -0.706,-5.788 1.401,-8.94 L 69.82,158.986 C 12.67,154.496 -3.662,129.697 15.404,95.327 20.437,86.237 27.423,79.748 34.98,74.568 38.667,72.04 42.575,69.769 46.581,67.609 50.428,65.547 54.365,63.585 58.28,61.582 73.783,53.643 86.851,45.94 93.249,29.676 l 4.682,-11.911 6.55,11.005 c 11.822,19.865 1.462,35.945 -9.352,46.738 -2.691,2.685 -5.549,5.195 -8.332,7.542 -2.661,2.228 -5.248,4.297 -7.534,6.224 -2.272,1.899 -3.98,3.429 -5.142,4.707 -0.399,0.439 -0.683,0.792 -0.866,1.057 0.019,0.728 0.516,1.622 2.132,2.686 1.813,1.183 4.62,2.276 8.239,3.253 7.275,1.969 17.224,3.321 27.423,4.258 20.504,1.883 41.997,2.064 44.953,2.021 l 11.951,-0.19 -53.653,80.4 2.236,4.431 c 0.657,1.327 1.321,2.667 1.819,3.699 l 0.607,1.314 c 0.326,0.75 0.338,1.284 0.326,1.396 l -1.549,-0.2 c 0,0 1.629,0.341 1.075,1.257 l -0.749,1.241 -2.667,4.424 -8.087,13.383 -10.358,17.13 c 7.821,0.185 30.316,0.707 36.823,0.82 3.011,-5.594 19.963,-37.127 19.981,-37.336 l 0.086,-0.793 0.694,-0.396 c 0.375,-0.215 13.113,-8.28 15.547,-9.865 l 47.251,-78.492 3.649,0.089 c 1.235,0.031 20.08,0.271 39.693,-1.53 20.153,-1.844 39.447,-5.776 43.294,-12.993 0.055,-0.378 -0.007,-0.581 -0.104,-0.845 -0.345,-0.961 -0.812,-2.283 -1.752,-4.077 -1.02,-1.939 -2.23,-4.027 -3.391,-6.279 -1.309,-2.522 -2.568,-5.229 -3.539,-8.117 -4.431,-13.187 -2.268,-28.778 18.98,-46.117 l 14.211,-9.967 -4.208,16.403 c -3.742,14.805 2.875,21.171 12.688,28.854 2.617,2.037 5.278,4.046 7.797,6.154 2.618,2.2 5.26,4.661 7.558,7.524 4.756,5.933 7.822,13.327 6.992,23.124 -2.832,33.383 -37.652,58.099 -102.896,60.603 l -17.671,28.747 c -3.441,5.613 -15.312,14.096 -22.753,17.227 l -19.343,33.769 c 0.147,1.585 0.614,6.394 0.694,7.558 0.11,2.089 -0.664,3.761 -1.211,4.701 -0.583,1.02 -1.327,1.904 -2.016,2.63 -1.37,1.459 -3.177,2.948 -5.075,4.371 -1.93,1.446 -12.154,7.589 -21.751,13.288 -9.653,5.738 -19.22,11.351 -19.22,11.351 l -98.318,-0.986 c 0,0 -4.123,-6.438 -8.147,-13.164 -3.994,-6.651 -8.462,-14.481 -9.955,-18.623 -0.405,-1.106 -0.799,-2.179 -1.137,-3.223 -0.35,-1.106 -0.626,-2.188 -0.768,-3.232 -0.301,-2.209 -0.012,-4.455 1.623,-6.514 0.682,-0.86 3.318,-3.146 5.665,-5.134 2.163,-1.836 4.308,-3.591 5.082,-4.202 L 63.258,197 c -0.498,-1.05 -1.431,-3.04 -2.39,-5.15"
+         fill="#ffffff"
+         id="path656" />
+      <path
+         d="m 99.086,31.97 c 19.035,31.975 -30.674,51.549 -32.228,62.212 -3.042,20.802 89.248,19.343 89.248,19.343 l -49.058,73.507 c 0,0 5.1,11.478 5.413,11.466 0.228,-0.006 -26.225,42.338 -26.531,43.112 l 51.404,1.088 c 0.571,-0.246 21.02,-40.059 21.37,-39.997 0.154,0.03 16.025,-10.286 16.025,-10.286 l 46.102,-76.582 c 0,0 78.569,1.933 88.811,-18.869 5.267,-10.669 -30.771,-30.465 8.449,-62.464 -9.444,37.33 37.561,34.66 34.857,66.67 -2.439,28.707 -33.34,53.214 -100.216,54.972 l -19.447,31.621 c -2.882,4.695 -15.895,13.826 -21.708,15.405 l -21.303,37.195 c -0.313,0.534 0.534,7.029 0.694,9.604 0.307,5.512 -37.145,25.084 -44.72,29.689 l -93.033,-0.94 c -3.452,-5.884 -19.644,-28.98 -16.639,-34.803 1.597,-3.082 11.22,-9.152 10.697,-9.397 l 23.055,-37 c -1.248,-4.132 -8.935,-14.69 -6.022,-19.051 l 16.86,-25.159 C 15.918,151.246 4.501,127.917 20.889,98.352 38.637,66.351 84.425,69.27 99.098,31.961"
+         fill="#006747"
+         id="path658" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.17475719,0,0,0.17475719,12.911368,1.8210233)"
+       id="text809"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect811);display:inline;fill:#484537;stroke:#504416"><tspan
+         x="145.97852"
+         y="30.65591"
+         id="tspan1323">UNIVERSITY of</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.37288104,0,0,0.37288104,-16.804995,2.3196855)"
+       id="text809-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect811-1);display:inline;fill:#484537;stroke:#504416"><tspan
+         x="145.97852"
+         y="30.65591"
+         id="tspan1325">SOUTH FLORIDA</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.14865772,0,0,0.14865772,16.238239,13.228707)"
+       id="text809-8-4"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect811-1-7);display:inline;fill:#484537;stroke:#504416"><tspan
+         x="145.97852"
+         y="30.65591"
+         id="tspan1329"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           id="tspan1327">DIGITAL LEARNING, INNOVATIVE EDUCATION</tspan></tspan></text>
+    <rect
+       style="fill:none;stroke:none"
+       width="793.81097"
+       height="107.96656"
+       x="-0.49999949"
+       y="117.79243"
+       id="rect1092"
+       transform="scale(0.26458333)" />
+  </g>
+</svg>

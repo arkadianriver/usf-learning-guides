@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="17.578899mm"
+   height="13.583384mm"
+   viewBox="0 0 17.578899 13.583384"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   sodipodi:docname="quick-tip.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.79464085"
+     inkscape:cx="194.42746"
+     inkscape:cy="257.97818"
+     inkscape:window-width="1390"
+     inkscape:window-height="1042"
+     inkscape:window-x="364"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-34.828264,-80.110781)">
+    <rect
+       style="fill:none;stroke:#445500;stroke-width:0.284496"
+       id="rect288"
+       width="17.294403"
+       height="13.298887"
+       x="34.970512"
+       y="80.253029" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.9389px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;text-anchor:middle;fill:#484537;stroke:#484537;stroke-width:0.264999"
+       x="43.329582"
+       y="85.630081"
+       id="text394"><tspan
+         sodipodi:role="line"
+         x="43.329582"
+         y="85.630081"
+         style="text-align:center;text-anchor:middle;fill:#484537;stroke:#484537;stroke-width:0.265"
+         id="tspan500">QUICK</tspan><tspan
+         sodipodi:role="line"
+         x="43.329582"
+         y="91.803703"
+         style="text-align:center;text-anchor:middle;fill:#484537;stroke:#484537;stroke-width:0.265"
+         id="tspan504">TIP</tspan></text>
+  </g>
+</svg>
