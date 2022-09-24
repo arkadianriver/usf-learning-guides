@@ -1,13 +1,12 @@
 # USF Learning Guides
 
-> This repo is a demonstration of a workflow where content can be authored
-> in a simple format, such as markdown, to create a resulting PDF.
-> It makes use of Pandoc templates to produce HTML styled with special CSS
-> that PagedJS uses to generate the output documents.
+This repo demonstrates a workflow where content can be authored
+in a simple format (markdown) to create a resulting PDF.
+It makes use of Pandoc templates to produce HTML styled with special CSS
+that PagedJS uses to generate the output documents.
 
-<p style="border:2px solid red;background-color:#dfdfad;padding:6px">USF
-Learning Guides are used as an example for this proof-of-concept.
-This repository is not directly associated with USF.</p>
+USF Learning Guides are used as an example for this proof-of-concept.
+This repository is not directly associated with USF.
 
 **Contents:**
 
@@ -21,7 +20,8 @@ This repository is not directly associated with USF.</p>
 The general idea is to author content in a text file with more attention spent on its meaning
 than style and layout.
 After the text file is saved, a build process uses a stylized template to render a final PDF.
-The markdown format of the text file requires a bit of learning but is fairly intuitive and popular.
+The markdown syntax used for the text file is a fairly intuitive and popular method of
+authoring that [can be learned in no time](https://www.markdownguide.org/cheat-sheet/).
 
 The source files are written in Pandoc markdown, which is
 [standard markdown](https://daringfireball.net/projects/markdown/syntax)
