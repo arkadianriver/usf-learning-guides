@@ -6,43 +6,22 @@
 > that PagedJS uses to generate the output documents.
 
 <p style="border:2px solid red;background-color:#dfdfad;padding:6px">USF
-Learning Guides are used as an example for a proof-of-concept.
+Learning Guides are used as an example for this proof-of-concept.
 This repository is not directly associated with USF.</p>
 
 **Contents:**
 
--  [Editing content online](#editing-content-online)
 -  [About markdown](#about-markdown)
+-  [Editing content online in Github](#editing-content-online-in-github)
 -  [Optional: Installing locally](#optional-installing-locally)
 -  [Optional: Authoring locally](#optional-authoring-locally)
 
-## Editing content online
-
-1.  In Github, create and edit a markdown file in the
-    `content` directory.
-
-1.  At the bottom of the form, enter a comment, select create a new branch,
-    and click **Propose changes**.
-    The file is created in a branch in your forked repository.
-
-1.  Create a Pull Request (PR), pulling your forked branch into the
-    `dev` branch of the `arkadianriver/usf-learning-guides` repository.
-
-1.  Once submitted, your colleagues can review the PR, comment, and
-    discuss before an authorized person merges your PR into the
-    `dev` branch.
-
-1.  After a minute or two, view the PDFs
-    [on Github pages](https://arkadianriver.github.io/usf-learning-guides/).
-
-1.  When ready to publish the reviewed PDFs to the CMS, an authorized person
-    merges the `dev` branch into the `main` branch.
-    After a minute or two, view the PDFs in your CMS.
-    (@TODO: Publish to Sharepoint, for example with
-    [this workflow action](https://github.com/marketplace/actions/publish-to-sharepoint).)
-
-
 ## About markdown
+
+The general idea is to author content in a text file with more attention spent on its meaning
+than style and layout.
+After the text file is saved, a build process uses a stylized template to render a final PDF.
+The markdown format of the text file requires a bit of learning but is fairly intuitive and popular.
 
 The source files are written in Pandoc markdown, which is
 [standard markdown](https://daringfireball.net/projects/markdown/syntax)
@@ -94,7 +73,59 @@ and the [`test.pdf`](https://arkadianriver.github.io/usf-learning-guides/test.pd
 (Note that when publishing to production, PDF filenames that start with `test` are not published.)
 
 
+## Editing content online in Github
+
+If you're new to git and Github, there is a bunch of terminology to learn and get used to
+in the steps that follow, but worry not, the Github interface guides you along the way fairly well.
+
+1.  If you have not already done so,
+    [fork the repository](https://github.com/arkadianriver/usf-learning-guides/fork).
+
+1.  In your fork, create or edit a markdown file in the [`content` directory](content).
+    If your content contains images, you will be uploading them to the
+    `resources` folder in step 4. Reference that location in your markdown
+    content.
+    
+    ```markdown
+    ![Accessible alternate text for the image](../resources/my-image-filename.png)
+    ```
+
+1.  When satisfied with your content changes,
+    describe the change in a few words at the bottom of the Edit page,
+    select Create a new branch,
+    provide a meaningful branch name, and click **Commit changes**.
+    The changes are made in the specified branch in your forked repository.
+
+1.  If your source contains images, upload them to the `resources` folder in your repository.
+    Commit each upload to the same branch in your repo as the markdown file you've edited.
+
+1.  Create a Pull Request (PR), pulling the branch on your fork into the
+    `dev` branch of the "upstream" `arkadianriver/usf-learning-guides` repository.
+    Make sure to select the correct branches and repositories in the pull request.
+    The interface displays the pull from right to left, such as:
+    
+    **dev** of `arkadianriver/usf-learning-guides` ← **your-custom-branch** of `YOUR-ID/usf-learning-guides`
+    
+1.  Once submitted, your colleagues can go to the upstream branch and review, comment, and
+    discuss the changes before an authorized person merges your request into the
+    `dev` branch.
+
+1.  A minute or two after the request has been merged, you can view the PDFs
+    [on Github pages](https://arkadianriver.github.io/usf-learning-guides/).
+
+1.  When ready to publish the reviewed PDFs, an authorized person
+    merges the `dev` branch into the `main` branch.
+    After a minute or two, view the PDFs at the published location.
+    (@TODO: You can publish to Sharepoint, for example with
+    [this workflow action](https://github.com/marketplace/actions/publish-to-sharepoint).
+    Or, simply [download the PDFs](https://github.com/arkadianriver/usf-learning-guides/blob/gh-pages/test.pdf)
+    from Github individually and publish manually.)
+
+
 ## Optional: Installing locally
+
+Recommended only if you are comfortable with using the Terminal and **git** from your workstation,
+such as to push and pull changes between your fork's clone, origin, and upstream.
 
 **Mac:**
 
