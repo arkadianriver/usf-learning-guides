@@ -6,10 +6,10 @@
 > that PagedJS uses to generate the output documents.
 
 <p style="border:2px solid red;background-color:#dfdfad;padding:6px">USF
-Learning Guides are used as an example. This repository is not associated
-with that organization in any way.</p>
+Learning Guides are used as an example for a proof-of-concept.
+This repository is not directly associated with USF.</p>
 
-## Contents:
+**Contents:**
 
 -  [Editing content online](#editing-content-online)
 -  [About markdown](#about-markdown)
@@ -37,7 +37,7 @@ with that organization in any way.</p>
 
 1.  When ready to publish the reviewed PDFs to the CMS, an authorized person
     merges the `dev` branch into the `main` branch.
-    After a minute or two, view the PDFs _in your CMS_.
+    After a minute or two, view the PDFs in your CMS.
     (@TODO: Publish to Sharepoint, for example with
     [this workflow action](https://github.com/marketplace/actions/publish-to-sharepoint).)
 
@@ -89,9 +89,9 @@ Steps can also include a prefix icon. The available icons are:
 |---|---|
 |think|<img src="resources/thinking-svgrepo-com.svg" width="20" height="20"/>|
 
-See the `content/test.md` file for example source,
-and the `output/test.pdf` file for its output.
-(Note that when publishing, the `test.pdf` is not published.)
+Check out the Raw or Blame view of the [`content/test.md`](content/test.md) file for example markdown source,
+and the [`test.pdf`](https://arkadianriver.github.io/usf-learning-guides/test.pdf) file for its output.
+(Note that when publishing to production, PDF filenames that start with `test` are not published.)
 
 
 ## Optional: Installing locally
