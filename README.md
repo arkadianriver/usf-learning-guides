@@ -80,6 +80,9 @@ in the steps that follow, but worry not, the Github interface guides you along t
 
 1.  If you have not already done so,
     [fork the repository](https://github.com/arkadianriver/usf-learning-guides/fork).
+    If you have forked the repo, be sure to
+    [update your fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
+    with the latest changes from the upstream repository.
 
 1.  In your fork, create or edit a markdown file in the [`content` directory](content).
     If your content contains images, you will be uploading them to the
