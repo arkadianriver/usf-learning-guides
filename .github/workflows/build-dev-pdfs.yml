@@ -18,11 +18,13 @@ jobs:
       - name: Install Pandoc ⬇️
         run: sudo apt-get install -y pandoc
 
-      - name: Install NodeJS and PagedJS ⬇️
+      - name: Install NodeJS ⬇️
         uses: actions/setup-node@v3
         with:
           node-version: '16'
-      - run: npm install -g pagedjs-cli pagedjs
+
+      - name: Install PagedJS ⬇️
+        run: npm install -g pagedjs-cli pagedjs
 
       - name: Build PDFs 🔧
         run: ./build.sh
