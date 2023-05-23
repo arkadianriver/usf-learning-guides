@@ -72,6 +72,8 @@ Check out the Raw or Blame view of the [`content/test.md`](content/test.md) file
 and the [`test.pdf`](https://arkadianriver.github.io/usf-learning-guides/test.pdf) file for its output.
 (Note that when publishing to production, PDF filenames that start with `test` are not published.)
 
+[![Image of a Sample PDF doc](./sample_doc.png)](https://arkadianriver.github.io/usf-learning-guides/test.pdf)
+
 
 ## Editing content online in Github
 
